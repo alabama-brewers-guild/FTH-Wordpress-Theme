@@ -1,0 +1,53 @@
+/*
+Theme Name: FTH
+Theme URI:    https://freethehops.org
+Description: Free the Hops Theme
+Author: Alabama Brewers Guild
+Author URI: https://alabamabrewers.org
+Template: Avada
+Version: 1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         FTH
+Text Domain:  fth
+*/
+
+.fusion-logo {
+	font-family: muli, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.8);
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 1.6px;
+	line-height: 84px;
+	content: "Free the Hops";
+}
+@media only screen and (max-width: 800px) {
+	.fusion-logo {
+		line-height: normal;
+	}
+}
+.fusion-logo a {
+	color: rgba(255,255,255,0.8);
+}
+.fusion-google-map{
+    display: none !important;
+}
+.fusion-header{
+	background-color: #4c4f56 !important;
+}
+.mc4wp-form input {
+	padding: 15px !important;
+	outline-color: rgb(138,151,160) !important;
+	font-size: 16px !important;
+	background-color:rgb(232,238,239) !important;
+	font-family: sans-serif !important;
+	height: 48px !important;
+	line-height:18.4px !important;
+}
+.mc4wp-form input[type=submit]{
+	outline-color: #fff !important;
+	background-color: rgb(171,139,101) !important;
+	color: #fff !important;
+	width: 100% !important;
+}
