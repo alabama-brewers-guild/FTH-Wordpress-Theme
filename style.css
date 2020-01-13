@@ -1,53 +1,67 @@
 /*
 Theme Name: FTH
 Theme URI:    https://freethehops.org
-Description: Free the Hops Theme
+Description: Free the Hops Two Theme
 Author: Alabama Brewers Guild
 Author URI: https://alabamabrewers.org
 Template: Avada
-Version: 1.0.0
+Version: 2.0.0
 License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Tags:         FTH
 Text Domain:  fth
 */
-
-.fusion-logo {
-	font-family: muli, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-	text-transform: uppercase;
-	color: rgba(255,255,255,0.8);
-	font-size: 24px;
-	font-weight: 400;
-	letter-spacing: 1.6px;
-	line-height: 84px;
-	content: "Free the Hops";
+h4.widget-title {
+	margin: 0 0 10px 0;
+	text-align: left;
 }
-@media only screen and (max-width: 800px) {
-	.fusion-logo {
-		line-height: normal;
-	}
+.fusion-widget-area .heading {
+	background-color: #4E7C93;
+	padding: 0 10px;
+	border: none;
+	border-radius: 0 15px 15px 0;
 }
-.fusion-logo a {
-	color: rgba(255,255,255,0.8);
-}
-.fusion-google-map{
-    display: none !important;
-}
-.fusion-header{
-	background-color: #4c4f56 !important;
+.mc4wp-form {
+	display: flex;
+ 	flex-flow: row wrap;
+ 	align-items: center;
 }
 .mc4wp-form input {
-	padding: 15px !important;
-	outline-color: rgb(138,151,160) !important;
-	font-size: 16px !important;
-	background-color:rgb(232,238,239) !important;
-	font-family: sans-serif !important;
-	height: 48px !important;
-	line-height:18.4px !important;
+	vertical-align: middle;
+	margin: 5px 0 5px 0;
+	padding: 10px;
+	border: 1px solid #ddd;
 }
-.mc4wp-form input[type=submit]{
-	outline-color: #fff !important;
-	background-color: rgb(171,139,101) !important;
-	color: #fff !important;
-	width: 100% !important;
+.mc4wp-form button {
+	padding: 10px 20px;
+	background-color: #5A934E;
+	border: 1px solid #ddd;
+	color: white;
+}
+.mc4wp-form-fields {
+	width: 100%;
+}
+#mc4wp_email_submit {
+	float: left;
+    line-height: 60px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+#mc4wp_email_textbox {
+	border-radius: 5px 0 0 5px;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 5px 10px 5px 10px !important;
+    flex: 1 1 200px;
+}
+#mc4wp_submit_button {
+ 	border-radius: 0 5px 5px 0;
+    margin: 0;
+    height: 40px;
+    padding: 5px;
+    vertical-align: middle;
+    width: 30%;
 }
